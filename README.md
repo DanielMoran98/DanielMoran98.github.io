@@ -1,1 +1,1 @@
-Website viewable [here](https://danielmoran98.github.io/).
+Website viewable @ [danielmoran.ie](http://www.danielmoran.ie)
