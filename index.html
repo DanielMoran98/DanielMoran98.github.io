@@ -272,6 +272,7 @@
         </div>  
         
         <div id="posts" class="row no-gutter" style="text-align:center;">
+          
           <div class="item web mobile desktop js node mysql col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
             <a href="projects.html#germ-section" >
               <span style="text-align: center;" ><br><h5 style="text-align: center; font-family:'Open Sans'; color:grey">Garda Resource Manager</h5></span>
@@ -279,6 +280,7 @@
               <img class="img-fluid" src="images/projectimages/germ.png">
             </a>
           </div>
+
           <div class="item desktop python col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
             <a href="projects.html#oring-section" >
               <span style="text-align: center;" ><br><h5 style="text-align: center; font-family:'Open Sans'; color:grey">Automated Manufacturing Quality Assurance</h5></span>
@@ -294,7 +296,6 @@
           </div>
 
           <div class="item desktop c col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-
             <a href="projects.html#infection-section" >
               <span style="text-align: center;" ><br><h5 style="text-align: center; font-family:'Open Sans'; color:grey">Infection transmission simulator</h5></span>
               <img class="img-fluid" src="images/projectimages/infection.png">
@@ -432,7 +433,7 @@
           <div class="col-md-12">
               <p>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
             </div>
@@ -443,8 +444,8 @@
 
   </div> <!-- .site-wrap -->
 
-      
-  
+
+
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-ui.js"></script>
@@ -459,5 +460,11 @@
   <script src="js/isotope.pkgd.min.js"></script>
   <script src="js/main.js"></script>
     
+  <script>
+    $(function(){
+      $(window).trigger('resize')
+    });
+
+    </script>
   </body>
 </html>
