@@ -1,6 +1,21 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ade82551b7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+
     <title>Daniel Moran - Developer</title>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 
@@ -51,7 +66,7 @@
                 <li class="has-children">
                     <a href="#portfolio-section" class="nav-link">Portfolio</a>
                     <ul class="dropdown">
-                      <li><a href="projects.html#germ-section" class="nav-link">GERM</a></li>
+                      <li><a href="projects.html#edpr-section" class="nav-link">Final Year Project</a></li>
                       <li><a href="projects.html#oring-section" class="nav-link">Manufacturing Quality Assurance</a></li>
                       <li><a href="projects.html#dailysale-section" class="nav-link">DailySale</a></li>
                       <li><a href="projects.html#fuzzy-section" class="nav-link">Fuzzy Air Conditioner</a></li>
@@ -80,7 +95,7 @@
 
   
      
-    <div class="site-blocks-cover overlay" style="background-image: url(images/header5.jpg);" data-aos="fade" id="home-section">
+    <!-- <div class="site-blocks-cover overlay" style="background-image: url(images/header5.jpg);" data-aos="fade" id="home-section">
 
       <div class="container">
         <div class="row align-items-center justify-content-center">
@@ -96,9 +111,9 @@
             
         </div>
       </div>
-    </div>
+    </div> -->
 
-      <div class="site-section cta-big-image" id="germ-section">
+      <div class="site-section cta-big-image" id="edpr-section">
         <div class="container">
           <div class="row mb-5">
             <div class="col-12 text-center" data-aos="fade">
@@ -108,21 +123,23 @@
           <div class="row">
             <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
               <figure class="circle-bg">
-              <img src="images/projectimages/germ.png" alt="Image" class="img-fluid">
+              <img src="images/projectimages/edpr.png" alt="Image" class="img-fluid">
               </figure>
             </div>
             <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
               <div class="mb-4">
-                <h3 class="h3 mb-4 text-black">Garda Electronic Resource Manager</h3>
-                <p>For my <strong>final year project</strong> I am developing a system for An Garda Síochána which will allow them to better manage their resources. This will come in the form of an application accessible by Gardaí on their phones, and dispatchers on their desktops.</p>
-                <p>The dispatchers will receive calls and mark crimes along with detailed information about them on the map. Gardaí will be able to then interact with these crimes and attend them based on urgency levels. As well as look at potential dangers and suspect descriptions while on the way.</p>
-                <p>There will also be features that add the ability to view crime statistics in certain areas, and find out if certain areas are over or underpatrolled and can then reallocate resources appropriately.</p>
+                <h3 class="h3 mb-4 text-black">An Electronic Dispatch, Patrol and Resource System for Use Within An Garda Síochána </h3>
+
+                <p>For my <strong>final year project</strong> I explored the idea of improving the efficiency of An Garda Síochána. After a period of research, I developed an electronic dispatch, patrol and resource system for the Gardaí. This comes in the form of an application which is accessible by patrolling Gardaí on their phones, and dispatchers on their office desktops.</p>
+                <p>The dispatchers  receive calls and mark crimes along with detailed information about them on a google map interface. Gardaí are then able to interact with these crimes and attend them based on urgency levels. As well as access critical information such as potential dangers when they arrive, suspect description(s) and how many gardaí are already attending. This information is updated in real-time allowing the gardaí to be prepared for changing events.</p>
+                <p>There are a lot of other features within the system such as data collection and presentation, notifications for urgent crimes, a report filing system and a lot of security features to name a few.</p>
+                <p>While I can only go into so much detail here, my thesis that I wrote alongside this project is viewable <a href="https://drive.google.com/file/d/1IDuP76MezxoUATNrAi-h9LBCZ5PUUah2/view?usp=sharing">here</a>, which goes into more detail about the features and inner workings of the system.</p>
             </div>
               
               <div class="mb-4">
                 <ul class="list-unstyled ul-check success">
-                  <li>Node.js Back-end</li>
                   <li>React Front-end</li>
+                  <li>Node.js Back-end</li>
                   <li>MySQL</li>
                   <li>JWT Authentication</li>
                 </ul>
@@ -148,12 +165,12 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+            <div class="col-lg-6 mb-5" >
               <figure class="circle-bg">
               <img src="images/projectimages/oring.png" alt="Image" class="img-fluid">
               </figure>
             </div>
-            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-5 ml-auto" >
               <div class="mb-4">
                 <h3 class="h3 mb-4 text-black">Manufacturing line fault detection</h3>
                 <p>This is a computer vision project manually done without the use of libraries such as Open-CV.</p>
@@ -172,7 +189,6 @@
   
               <div class="mb-4">
                 <a class="btn primary" href="https://github.com/DanielMoran98/Manufacturing-Line-Inspection">Source</a>
-                <a class="btn primary disabled" href="">Demo</a>
               </div>
               
             </div>
@@ -188,12 +204,12 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+            <div class="col-lg-6 mb-5" >
               <figure class="circle-bg">
               <img src="images/projectimages/dailysale.png" alt="Image" class="img-fluid">
               </figure>
             </div>
-            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-5 ml-auto" >
               <div class="mb-4">
                 <h3 class="h3 mb-4 text-black">Buy & Sell web application</h3>
                 <p>A third year project called <strong>DailySale</strong> is a buy and sell web application that allows users to create accounts and post or purchase adverts.</p>                
@@ -212,7 +228,6 @@
 
               <div class="mb-4">
                 <a class="btn primary" href="https://github.com/DanielMoran98/DailySale">Source</a>
-                <a class="btn primary disabled" href="">Demo</a>
               </div>
 
 
@@ -230,12 +245,12 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+            <div class="col-lg-6 mb-5" >
               <figure class="circle-bg">
               <img src="images/projectimages/fuzzy.png" alt="Image" class="img-fluid">
               </figure>
             </div>
-            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-5 ml-auto" >
               <div class="mb-4">
                 <h3 class="h3 mb-4 text-black">Fuzzy Logic Air Conditioning System</h3>
                 <p>In this project I used fuzzy-logic to create an air conditioning which takes input from the room it's in and the target temperature and uses fuzzy logic to get to the appropriate temperature.</p>                
@@ -253,7 +268,6 @@
 
               <div class="mb-4">
                 <a class="btn primary" href="https://github.com/DanielMoran98/Fuzzy-Air-Conditioning-System">Source</a>
-                <a class="btn primary disabled" href="">Demo</a>
               </div>
 
             </div>
@@ -270,12 +284,12 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+            <div class="col-lg-6 mb-5" >
               <figure class="circle-bg">
               <img src="images/projectimages/poll-y.png" alt="Image" class="img-fluid">
               </figure>
             </div>
-            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-5 ml-auto" >
               <div class="mb-4">
                 <h3 class="h3 mb-4 text-black">TU Dublin Student Union Poll Web Applications</h3>
                 <p>This web application was built with the Student Union in mind. It allows students to put forward propositions. If a proposition gains enough interest and gets 50 supporters, it is then automatically turned into a vote.</p>                
@@ -292,7 +306,6 @@
               </div>
               <div class="mb-4">
                 <a class="btn primary" href="https://github.com/DanielMoran98/Student-Voting-WebApp">Source</a>
-                <a class="btn primary disabled" href="">Demo</a>
               </div>
             </div>
           </div>
@@ -308,12 +321,12 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+            <div class="col-lg-6 mb-5" >
               <figure class="circle-bg">
               <img src="images/projectimages/infection.png" alt="Image" class="img-fluid">
               </figure>
             </div>
-            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-5 ml-auto" >
               <div class="mb-4">
                 <h3 class="h3 mb-4 text-black">Transmission of Infection Simulator</h3>
                 <p>This project was created using C. It uses a cellular automata approach at simulating the spread of an infection in a population.</p>
@@ -330,7 +343,7 @@
               </div>
               <div class="mb-4">
                 <a class="btn primary" href="https://github.com/DanielMoran98/Infection-transmission-simulator">Source</a>
-                <a class="btn primary disabled" href="">Demo</a>
+                <a class="btn primary" href="https://youtu.be/Ei_PS6TsFmw">Watch demo on YouTube</a>
               </div>
             </div>
           </div>
@@ -347,12 +360,12 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+            <div class="col-lg-6 mb-5" >
               <figure class="circle-bg">
               <img src="images/projectimages/donut.png" alt="Image" class="img-fluid">
               </figure>
             </div>
-            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-5 ml-auto" >
               <div class="mb-4">
                 <h3 class="h3 mb-4 text-black">Donut Shop Point-of-Sale System</h3>
                 <p>A point-of-sale application for staff use in a donut shop. Built using Node.js and MySQL</p>                
@@ -368,7 +381,6 @@
               </div>
               <div class="mb-4">
                 <a class="btn primary" href="https://github.com/DanielMoran98/KrunchyKreme-WebApp">Source</a>
-                <a class="btn primary disabled" href="">Demo</a>
               </div>
             </div>
           </div>
@@ -384,12 +396,12 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+            <div class="col-lg-6 mb-5" >
               <figure class="circle-bg">
               <img src="images/projectimages/rss.png" alt="Image" class="img-fluid">
               </figure>
             </div>
-            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-5 ml-auto" >
               <div class="mb-4">
                 <h3 class="h3 mb-4 text-black">Android News Reader</h3>
                 <p>An android application that gives the user location based news. It uses both the Google Maps API and the Gelocation API to do this.</p>                
@@ -404,7 +416,6 @@
               </div>
               <div class="mb-4">
                 <a class="btn primary disabled" href="https://github.com/DanielMoran98/KrunchyKreme-WebApp">Source</a>
-                <a class="btn primary disabled" href="">Demo</a>
               </div>
             </div>
           </div>
@@ -420,12 +431,12 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+            <div class="col-lg-6 mb-5" >
               <figure class="circle-bg">
               <img src="images/projectimages/weather.png" alt="Image" class="img-fluid">
               </figure>
             </div>
-            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-5 ml-auto" >
               <div class="mb-4">
                 <h3 class="h3 mb-4 text-black">Weather checker</h3>
                 <p>A simple web application that allows the user to type in their city and get the current weather as well as upcoming weather.</p>                
@@ -439,7 +450,6 @@
               </div>
               <div class="mb-4">
                 <a class="btn primary" href="https://github.com/DanielMoran98/KrunchyKreme-WebApp">Source</a>
-                <a class="btn primary disabled" href="">Demo</a>
               </div>
             </div>
           </div>
@@ -455,12 +465,12 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+            <div class="col-lg-6 mb-5" >
               <figure class="circle-bg">
               <img src="images/projectimages/pychat.png" alt="Image" class="img-fluid">
               </figure>
             </div>
-            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-5 ml-auto" >
               <div class="mb-4">
                 <h3 class="h3 mb-4 text-black">CLI Based Python Chat Program</h3>
                 <p>This project is a python chat program which is built using sockets. It contains a central server that takes in connections from clients and then verifies all incoming messages and forwards them onto each client. </p>                
@@ -477,7 +487,6 @@
               </div>
               <div class="mb-4">
                 <a class="btn primary" href="https://github.com/DanielMoran98/Python-chat-app">Source</a>
-                <a class="btn primary disabled" href="">Demo</a>
               </div>
             </div>
           </div>
@@ -493,12 +502,12 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+            <div class="col-lg-6 mb-5">
               <figure class="circle-bg">
               <img src="images/projectimages/swat.png" alt="Image" class="img-fluid">
               </figure>
             </div>
-            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-5 ml-auto" >
               <div class="mb-4">
                 <h3 class="h3 mb-4 text-black">SWAT First Person Shooter Unity Game</h3>
                 <p>This project was my first time working on a game. It is a first person shooter built in Unity where the player is a SWAT officer who must enter a location and defuse a bomb and kill all criminals in a certain time limit.</p>
@@ -515,8 +524,7 @@
               </div>
               <div class="mb-4">
                 <a class="btn primary" href="https://github.com/DanielMoran98/SWAT-game-Unity">Source</a>
-                <a class="btn primary disabled" href="">Demo</a>
-              </div>
+                <a class="btn primary" href="https://danmorandev.itch.io/swat" style="background-color: #007bff; color: #fff; border-radius:4px; padding:4px 10px 4px 10px;">Play on <strong>itch.io</strong></a>
             </div>
           </div>
         </div>  
@@ -531,12 +539,12 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+            <div class="col-lg-6 mb-5" >
               <figure class="circle-bg">
               <img src="images/projectimages/phpmerchant.png" alt="Image" class="img-fluid">
               </figure>
             </div>
-            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-5 ml-auto" >
               <div class="mb-4">
                 <h3 class="h3 mb-4 text-black">My First Client-Server Website</h3>
                 <p>This project was my first time creating any sort of web server. It is a simple website that contains information about the film which has a login/registration feature, with certain pages only viewable by certain account-roles.</p>
@@ -553,7 +561,6 @@
               </div>
               <div class="mb-4">
                 <a class="btn primary" href="https://github.com/DanielMoran98/PHP-Project">Source</a>
-                <a class="btn primary disabled" href="">Demo</a>
               </div>
             </div>
           </div>
@@ -570,12 +577,12 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+            <div class="col-lg-6 mb-5" >
               <figure class="circle-bg">
               <img src="images/projectimages/dansrecipes.png" alt="Image" class="img-fluid">
               </figure>
             </div>
-            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-5 ml-auto" >
               <div class="mb-4">
                 <h3 class="h3 mb-4 text-black">My First Website Project</h3>
                 <p>The very first website I made, is a collection of recipes and is built purely with HTML and CSS.</p>
@@ -590,7 +597,6 @@
               </div>
               <div class="mb-4">
                 <a class="btn primary" href="https://github.com/DanielMoran98/old-recipe-website">Source</a>
-                <a class="btn primary disabled" href="">Demo</a>
               </div>
             </div>
           </div>
@@ -650,9 +656,7 @@
         <div class="row pt-5 mt-5 text-center">
           <div class="col-md-12">
               <p>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> 
             </p>
             </div>
           
@@ -664,20 +668,7 @@
 
 
   
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-  <link rel="stylesheet" href="fonts/icomoon/style.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/jquery-ui.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/ade82551b7.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/aos.css">
-  <link rel="stylesheet" href="css/style.css">
+
   <style>
       p{
           line-height: 1.7;
